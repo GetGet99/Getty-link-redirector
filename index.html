@@ -13,7 +13,7 @@
             var A = document.getElementById("url");
             var B = document.getElementById("B");
             B.onclick = function () {
-                let urlparse = new URL("redirect.html",document.baseURI);
+                let urlparse = new URL("rdr.html",document.baseURI);
                 urlparse.searchParams.append("",encodeURI(A.value));
                 alert(urlparse.toString());
             }
