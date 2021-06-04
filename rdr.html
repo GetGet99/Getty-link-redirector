@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <p>
+            Please Enable JavaScript for the current webpage.
+        </p>
         <script>
             let urlparse = new URL(window.location);
             let url = urlparse.searchParams.get("url");
             window.location = decodeURI(url);
         </script>
-        <noscript>
-            Please Enable JavaScript for the current webpage.
-        </noscript>
     </body>
 </html>
