@@ -1,0 +1,1 @@
+# Getty-link-redirector
