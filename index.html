@@ -15,7 +15,9 @@
             B.onclick = function () {
                 let urlparse = new URL("rdr.html",document.baseURI);
                 urlparse.searchParams.append("url",encodeURI(A.value));
-                alert(urlparse.toString());
+                let str = urlparse.toString();
+                console.log(str);
+                alert(str);
             }
         </script>
     </body>
